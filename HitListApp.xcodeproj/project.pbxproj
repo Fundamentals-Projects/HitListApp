@@ -58,16 +58,40 @@
 		EB20F3D726EBACAF0044A23D /* HitListApp */ = {
 			isa = PBXGroup;
 			children = (
+				EB20F3E926EBACB00044A23D /* Info.plist */,
+				EBF073D226EBAFD10092A5AA /* View Controllers */,
+				EBF073D126EBAF090092A5AA /* Views & Assets */,
+				EBF073CD26EBAE700092A5AA /* Model */,
 				EB20F3D826EBACAF0044A23D /* AppDelegate.swift */,
 				EB20F3DA26EBACAF0044A23D /* SceneDelegate.swift */,
-				EB20F3DC26EBACAF0044A23D /* ViewController.swift */,
-				EB20F3DE26EBACAF0044A23D /* Main.storyboard */,
-				EB20F3E426EBACB00044A23D /* Assets.xcassets */,
-				EB20F3E626EBACB00044A23D /* LaunchScreen.storyboard */,
-				EB20F3E926EBACB00044A23D /* Info.plist */,
-				EB20F3E126EBACAF0044A23D /* HitListApp.xcdatamodeld */,
 			);
 			path = HitListApp;
+			sourceTree = "<group>";
+		};
+		EBF073CD26EBAE700092A5AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB20F3E126EBACAF0044A23D /* HitListApp.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBF073D126EBAF090092A5AA /* Views & Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EB20F3E626EBACB00044A23D /* LaunchScreen.storyboard */,
+				EB20F3DE26EBACAF0044A23D /* Main.storyboard */,
+				EB20F3E426EBACB00044A23D /* Assets.xcassets */,
+			);
+			path = "Views & Assets";
+			sourceTree = "<group>";
+		};
+		EBF073D226EBAFD10092A5AA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EB20F3DC26EBACAF0044A23D /* ViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
